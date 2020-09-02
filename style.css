@@ -1,0 +1,47 @@
+body, html {
+    background: white;
+    height: 100%;
+    color: purple;
+}
+
+section, main, div, header {
+    border: solid 1px black;
+
+}
+
+
+header {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+
+.middle {
+  display: grid;
+  grid-template-rows: 70px 1fr;  
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 
+}
+
+.mid-column-1 {
+    display: grid;
+    grid-template-rows: 2fr 1fr ;
+}
+
+
+.mid-column-2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
